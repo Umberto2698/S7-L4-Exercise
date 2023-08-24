@@ -26,7 +26,7 @@ const displayLionImg = () => {
     .then((photosObj) => {
       const photosArr = photosObj.photos;
       cards.forEach((card, i) => {
-        card.innerHTML = `<a href="./desrciption.html?photoId=${photosArr[i].id}">
+        card.innerHTML = `<a href="./description.html?photoId=${photosArr[i].id}">
         <img
         class="bd-placeholder-img card-img-top"
         src=${photosArr[i].src.medium}
@@ -66,7 +66,7 @@ const displayOceanImg = () => {
       const photosArr = photosObj.photos;
       cards.forEach((card, i) => {
         card.innerHTML = `
-        <a href="./desrciption.html?photoId=${photosArr[i].id}">
+        <a href="./description.html?photoId=${photosArr[i].id}">
         <img
         class="bd-placeholder-img card-img-top"
         src=${photosArr[i].src.medium}
@@ -107,7 +107,7 @@ const displayImgs = (event) => {
       const photosArr = photosObj.photos;
       cards.forEach((card, i) => {
         card.innerHTML = `
-        <a href="./desrciption.html?photoId=${photosArr[i].id}">
+        <a href="./description.html?photoId=${photosArr[i].id}">
         <img
           class="bd-placeholder-img card-img-top"
           src=${photosArr[i].src.medium}
