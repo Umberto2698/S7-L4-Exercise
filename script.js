@@ -39,7 +39,7 @@ const displayLionImg = () => {
         />
       </a>
       <div class="card-body">
-      <h5 class="card-title">${photosArr[i].photographer}</h5>
+      <a href="./description.html?photoId=${photosArr[i].id}"><h5 class="card-title">${photosArr[i].photographer}</h5></a>
       <p class="card-text">
         ${photosArr[i].alt}
       </p>
@@ -78,7 +78,7 @@ const displayOceanImg = () => {
       />
       </a>
       <div class="card-body">
-      <h5 class="card-title">${photosArr[i].photographer}</h5>
+      <a href="./description.html?photoId=${photosArr[i].id}"><h5 class="card-title">${photosArr[i].photographer}</h5></a>
       <p class="card-text">
         ${photosArr[i].alt}
       </p>
@@ -119,7 +119,7 @@ const displayImgs = (event) => {
         />
         </a>
         <div class="card-body">
-        <h5 class="card-title">${photosArr[i].photographer}</h5>
+        <a href="./description.html?photoId=${photosArr[i].id}"><h5 class="card-title">${photosArr[i].photographer}</h5></a>
         <p class="card-text">
           ${photosArr[i].alt}
         </p>
